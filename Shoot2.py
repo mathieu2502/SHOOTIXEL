@@ -76,7 +76,7 @@ while continuer:
         exit_Bouton.Afficher()
         horloge.tick(10)
 
-        selection_menu = move_Pointeur(selection_menu, touches, son_pointeur_menu)
+        selection_menu = move_pointeur(selection_menu, touches, son_pointeur_menu)
 
         if selection_menu == 1:
             pointeur1.Afficher()

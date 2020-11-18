@@ -112,7 +112,8 @@ def SupprTrucs(liste):
     x = len(liste) - len(liste_keep)
     return x, liste_keep
 
-def move_Pointeur(selection_menu, touches, son_pointeur_menu):
+
+def move_pointeur(selection_menu, touches, son_pointeur_menu):
     """
     Fonction qui gère le pointeur du Menu
     """
